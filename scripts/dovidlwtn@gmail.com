@@ -516,7 +516,7 @@
           if (target[j].classList.contains('noDrop')) {
             return
           };
-          target[j].style.backgroundColor = 'red';
+          target[j].style.backgroundColor = '#2bff40';
 
         });
         target[j].addEventListener('dragleave', function(e) {
